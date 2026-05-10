@@ -23,4 +23,4 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync ./ s3://mybucket-20260427 --delete --exclude ".git/*" --exclude ".github/*"
+        aws s3 sync ./ s3://mybucket-20263623 --delete --exclude ".git/*" --exclude ".github/*"
